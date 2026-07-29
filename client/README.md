@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# 📋 CodeAlpha - Project Management Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Project Management Tool built using React.js for the CodeAlpha Internship.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+✅ Create Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Edit Projects
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Delete Projects
 
-### `npm test`
+✅ Add Tasks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Assign Team Members
 
-### `npm run build`
+✅ Task Priority (High, Medium, Low)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Due Date
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ Kanban Board
+- To Do
+- In Progress
+- Done
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ Progress Bar
 
-### `npm run eject`
+✅ Dashboard Statistics
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ Search Projects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ Dark Mode
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✅ Local Storage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+✅ Export Projects as JSON
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Local Storage
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Folder Structure
 
-### Analyzing the Bundle Size
+client/
+├── public/
+├── src/
+│ ├── components/
+│ │ └── Navbar.js
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── package.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📷 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Dashboard
 
-### Advanced Configuration
+(Add Screenshot Here)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Dark Mode
 
-### Deployment
+(Add Screenshot Here)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Kanban Board
 
-### `npm run build` fails to minify
+(Add Screenshot Here)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 💻 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/cadetmishra7-prog/CodeAlpha_Project-Management-Tool.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the project
+
+```bash
+npm start
+```
+
+---
+
+## 📈 Future Improvements
+
+- User Authentication
+- Firebase Database
+- Team Collaboration
+- Notifications
+- File Upload
+- Calendar Integration
+- Drag & Drop Tasks
+
+---
+
+## 👨‍💻 Author
+
+Atul Mishra
+
+GitHub:
+https://github.com/cadetmishra7-prog
+
+---
+
+⭐ If you like this project, don't forget to star the repository.
