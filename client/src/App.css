@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  padding: 10px;
+  width: 250px;
+}
+
+.create-btn,
+.task-btn,
+.delete-btn,
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+.create-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.create-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.task-btn {
+  background: #16a34a;
+  color: white;
+}
+
+.task-btn:hover {
+  background: #15803d;
+  transform: translateY(-2px);
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  width: 350px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.task-item {
+  background: #f8fafc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.todo {
+  border-left: 5px solid orange;
+}
+
+.progress {
+  border-left: 5px solid blue;
+}
+
+.done {
+  border-left: 5px solid green;
+}
+.board {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.column {
+  flex: 1;
+  background: #eef2ff;
+  border-radius: 10px;
+  padding: 12px;
+  min-height: 320px;
+}
+.column h4 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.task-item {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.priority-high {
+  color: red;
+  font-weight: bold;
+}
+
+.priority-medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.priority-low {
+  color: green;
+  font-weight: bold;
+}
+
+.todo {
+  border-left: 5px solid orange;
+}
+
+.progress {
+  border-left: 5px solid blue;
+}
+
+.done {
+  border-left: 5px solid green;
+}
+.project-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 420px;
+}
+.project-card {
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
+.task-item button {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.column {
+  min-height: 300px;
+}
+.form-container input {
+  margin: 5px;
+  padding: 10px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.stats h3 {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  min-width: 180px;
+  text-align: center;
+}
+.dark {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+.dark .project-card {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark input {
+  background-color: #2a2a2a;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark button {
+  background-color: #333;
+  color: white;
+}
+.priority-high {
+  color: red;
+  font-weight: bold;
+}
+
+.priority-medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.priority-low {
+  color: green;
+  font-weight: bold;
+}
+.priority-high {
+  color: red;
+  font-weight: bold;
+}
+
+.priority-medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.priority-low {
+  color: green;
+  font-weight: bold;
+}
+.task-item {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.priority-high {
+  color: red !important;
+  font-weight: bold;
+}
+
+.priority-medium {
+  color: orange !important;
+  font-weight: bold;
+}
+
+.priority-low {
+  color: green !important;
+  font-weight: bold;
+}
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.form-container input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 8px rgba(37,99,235,.3);
+}
+.navbar {
+  background: #2563eb;
+  color: white;
+  padding: 18px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+button:not(.create-btn):not(.task-btn):not(.delete-btn) {
+  background: #f1f5f9;
+  color: #1f2937;
+  border: 1px solid #cbd5e1;
+}
+
+button:not(.create-btn):not(.task-btn):not(.delete-btn):hover {
+  background: #e2e8f0;
+  transform: translateY(-2px);
+}
+/* ===========================
+   DARK MODE FIX
+=========================== */
+
+.dark {
+  background: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.dark .dashboard,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark p,
+.dark strong,
+.dark span,
+.dark label {
+  color: #ffffff;
+}
+
+/* Project Cards */
+.dark .project-card {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* Task Cards */
+.dark .task-item {
+  background: #2b2b2b;
+  color: white;
+}
+
+/* Kanban Columns */
+.dark .column {
+  background: #252525;
+}
+
+/* Statistics Boxes */
+.dark .stats h3 {
+  background: #2b2b2b;
+  color: white;
+}
+
+/* Inputs */
+.dark input {
+  background: #2a2a2a;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark input::placeholder {
+  color: #bdbdbd;
+}
+
+/* Buttons */
+.dark button {
+  color: white;
+}
+
+/* Progress Bar Background */
+.dark .progress-bar {
+  background: #444;
+}
+
+/* Links */
+.dark a {
+  color: #4ea8ff;
+}
+
+/* Export Button */
+.dark .export-btn {
+  background: #2563eb;
+  color: white;
+}
+
+/* Form */
+.dark .form-container {
+  color: white;
+}
+.theme-btn{
+  background:#2563eb;
+  color:white;
+  padding:10px 18px;
+  border:none;
+  border-radius:8px;
+  font-weight:bold;
+  cursor:pointer;
+  margin-bottom:20px;
+}
+
+.theme-btn:hover{
+  background:#1d4ed8;
+}
